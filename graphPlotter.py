@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import cal
 import csv
+import RequrimentChecker as r
+r.main()
 n=10
 k=1/n
 f=open("coordinates.csv",'w')
